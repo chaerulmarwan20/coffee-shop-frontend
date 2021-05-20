@@ -12,7 +12,7 @@ Web aplikasi ini dikembangkan oleh Bohdan Developer, sebuah tim yang beranggotak
 4. [Nevalen Aginda Prasetyo](https://github.com/nevalenaginda) - Backend - Member
 5. [Kevin Farid Alpharisy](https://github.com/kevinfaridap) - Frontend -Member
 
-## Fitur Coffe Shop
+## Screenshots
 
 ### `1# Home Page Coffe Shop`
 
@@ -61,9 +61,6 @@ Pesanan berhasil dibuat, silahkan tunggu konfirmasi dari admin dan pesanan kamu 
 
 Jika kamu ingin mengubah data diri kamu, itu bisa dilakukan dihalamn profile ya.
 ![screencapture-coffee-shop-bohdan-netlify-app-profile-2021-05-11-11_25_04](https://user-images.githubusercontent.com/55057008/117759676-58af2a80-b24e-11eb-86f0-b133710700b4.png)
-
-
-
 
 ## Link:
 
