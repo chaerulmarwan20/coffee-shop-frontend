@@ -133,7 +133,7 @@ function Navbar() {
                 <Link className={Style["nav-item"]} to="/product-cust">
                   Product
                 </Link>
-                <Link className={Style["nav-item"]} to="/">
+                <Link className={Style["nav-item"]} to="/payment-delivery">
                   Your Cart
                 </Link>
                 <Link className={Style["nav-item"]} to="/history">
@@ -194,7 +194,7 @@ function Navbar() {
               <Link className={Style["nav-item"]} to="/product-cust">
                 Product
               </Link>
-              <Link className={Style["nav-item"]} to="/">
+              <Link className={Style["nav-item"]} to="/payment-delivery">
                 Your Cart
               </Link>
               <Link className={Style["nav-item"]} to="/history">

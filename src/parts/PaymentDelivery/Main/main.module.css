@@ -1,10 +1,21 @@
-div.payment-bg{
+div.payment-bg {
   background-image: url(./../../../assets/images/payment-bg.png);
   /* background-color: rgb(214, 214, 214); */
   height: 1241px;
 }
 
-.circle-bg{
+.title-empty {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 47px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.circle-bg {
   width: 40px;
   height: 40px;
   background-color: white;
@@ -12,39 +23,39 @@ div.payment-bg{
   margin: auto;
 }
 
-h5.titleline{
+h5.titleline {
   font-family: Poppins;
   font-weight: 300;
   font-size: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 8px;
 }
 
-.checklist-icon{
+.checklist-icon {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   padding-top: 8px;
 }
 
-.checklist-icon-active{
+.checklist-icon-active {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   top: 8px;
-  background-color: #6A4029;
+  background-color: #6a4029;
   width: 20px;
   height: 20px;
   border-radius: 50%;
 }
 
-.circle-1{
+.circle-1 {
   margin-left: 337.5px;
 }
 
-.order-line{
+.order-line {
   width: 185px;
   border: 1px solid #ffffff;
   position: relative;
@@ -52,35 +63,35 @@ h5.titleline{
   top: -20px;
 }
 
-.title-checkout{
+.title-checkout {
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 47px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 316px;
   margin-left: 166px;
   margin-top: 30px;
 }
-.card{
+.card {
   display: flex;
   flex-wrap: nowrap;
 }
-.head-payment{
+.head-payment {
   background-color: #362115;
   height: 65vh;
   display: none;
 }
-.pay-top > h5{
+.pay-top > h5 {
   color: white;
   text-align: center;
   margin-bottom: 1em;
 }
-.pay-bot > p{
+.pay-bot > p {
   color: white;
   font-weight: 400;
-  margin-left: 40px ;
+  margin-left: 40px;
 }
 .arrow {
   margin-top: 30px;
@@ -93,24 +104,22 @@ h5.titleline{
   -webkit-transform: rotate(135deg);
 }
 @media (max-width: 1199.98px) {
- .payment-bg {
-   padding-right: 2em;
-   width: min-content;
- }
-  .title-checkout{
-   margin-left: 2em;
- }
+  .payment-bg {
+    padding-right: 2em;
+    width: min-content;
+  }
+  .title-checkout {
+    margin-left: 2em;
+  }
   .row-resp-1 {
-  flex-wrap: nowrap;
- }   
+    flex-wrap: nowrap;
+  }
 }
 @media (max-width: 575.98px) {
- div.payment-bg{
-   display: none;
- }
- .head-payment{
-   display: block;
- }
-
+  div.payment-bg {
+    display: none;
+  }
+  .head-payment {
+    display: block;
+  }
 }
-

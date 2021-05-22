@@ -146,17 +146,15 @@ export default function DetailProduct(props) {
             confirmButtonColor: "#ffba33",
           }).then((result) => {
             if (result.isConfirmed) {
-              history.push("/payment-delivery", {
-                cart: cart,
-                price: product.price,
-                idProduct: product.id,
-              });
+              localStorage.setItem("cart", JSON.stringify(cart));
+              localStorage.setItem("price", product.price);
+              localStorage.setItem("idProduct", product.id);
+              history.push("/payment-delivery");
             } else {
-              history.push("/payment-delivery", {
-                cart: cart,
-                price: product.price,
-                idProduct: product.id,
-              });
+              localStorage.setItem("cart", JSON.stringify(cart));
+              localStorage.setItem("price", product.price);
+              localStorage.setItem("idProduct", product.id);
+              history.push("/payment-delivery");
             }
           });
         });
