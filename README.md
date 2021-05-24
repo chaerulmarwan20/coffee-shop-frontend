@@ -56,7 +56,7 @@ $ cp .env.example .env
 $ npm start
 ```
 
-## Tentang Bohdan Developer
+## Authors
 
 This web application was developed by Bohdan Developer, a team of 5 people.
 
